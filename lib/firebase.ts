@@ -2,14 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'TU_API_KEY',
-  authDomain: 'TU_AUTH_DOMAIN',
-  projectId: 'TU_PROJECT_ID',
-  storageBucket: 'TU_STORAGE_BUCKET',
-  messagingSenderId: 'TU_MESSAGING_SENDER_ID',
-  appId: 'TU_APP_ID'
+  apiKey: "AIzaSyCCBYzbMzRLjfZX0tzGk3k2AxnTohEp9RY",
+  authDomain: "lavanderia-app-e9c9a.firebaseapp.com",
+  projectId: "lavanderia-app-e9c9a",
+  storageBucket: "lavanderia-app-e9c9a.appspot.com",
+  messagingSenderId: "600759406343",
+  appId: "1:600759406343:web:992b84075f4c0224557fa2"
 };
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
-
